@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <right>
+      <Button fx:id="right" mnemonicParsing="false" onAction="#useNewEvent" prefHeight="294.0" prefWidth="100.0" text="Начать" BorderPane.alignment="CENTER" />
+    </right>
+    <left>
+        <Button fx:id="left" mnemonicParsing="false" onAction="#useNewEvent" prefHeight="293.0" prefWidth="100.0" text="Начать" BorderPane.alignment="CENTER" />
+    </left>
+   <top>
+      <Label fx:id="title" alignment="CENTER" prefHeight="68.0" prefWidth="437.0" text="Тут Что-то Есть" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </top>
+   <bottom>
+      <Label fx:id="chars" alignment="CENTER" prefHeight="39.0" prefWidth="496.0" text="Характеристики" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </bottom>
+   <center>
+      <TextArea fx:id="gameText" prefHeight="312.0" prefWidth="2.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
